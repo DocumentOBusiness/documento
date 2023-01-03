@@ -13,11 +13,21 @@ export default function Home() {
     return (
         <div className={roboto.className}>
             <div className="bg-gradient-to-r from-purple-400 to-yellow-400 items-center">
-                <Navbar />
-                <Intro />
-                <Services />
-                <Timeline />
-                <Contact />
+                <div id="navbar">
+                    <Navbar />
+                </div>
+                <div id="intro">
+                    <Intro />
+                </div>
+                <div id="services">
+                    <Services />
+                </div>
+                <div id="timeline">
+                    <Timeline />
+                </div>
+                <div id="contact">
+                    <Contact />
+                </div>
             </div>
         </div>
     );

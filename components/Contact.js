@@ -8,7 +8,7 @@ const Contact = () => {
                         <a href="https://twitter.com/documneto">Twitter</a>
                     </div>
                     <div className="mx-auto my-5">
-                        <a href="https://github.com/DocumentO-Business">GitHub</a>
+                        <a href="https://github.com/DocumentOBusiness">GitHub</a>
                     </div>
                 </div>
                 <div className="flex flex-row">

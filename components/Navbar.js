@@ -43,7 +43,7 @@ const Navbar = () => {
                         <ul class="flex flex-col p-3 mx-6 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white">
                             <li>
                                 <a
-                                    href="#"
+                                    href="#intro"
                                     className="block py-2 pl-3 pr-4 text-white bg-pink-300 rounded md:bg-transparent md:text-pink-400 md:p-0"
                                     aria-current="page"
                                 >
@@ -52,7 +52,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <a
-                                    href="#"
+                                    href="#intro"
                                     className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-pink-300 md:p-0"
                                 >
                                     About
@@ -60,7 +60,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <a
-                                    href="#"
+                                    href="#services"
                                     className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-pink-300 md:p-0"
                                 >
                                     Services
@@ -68,7 +68,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <a
-                                    href="#"
+                                    href="#timeline"
                                     className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-pink-300 md:p-0"
                                 >
                                     Timeline
@@ -76,7 +76,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <a
-                                    href="#"
+                                    href="#contact"
                                     className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-pink-300 md:p-0"
                                 >
                                     Contact
