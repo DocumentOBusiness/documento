@@ -3,7 +3,7 @@ const Navbar = () => {
         <div className="h-full w-11/12 mx-auto bg-purple-500 rounded-md bg-clip-padding backdrop-filter backdrop-blur-none bg-opacity-20 border border-gray-100">
             <nav className="items-center justify-center m-auto p-1 rounded bg-pink-300">
                 <div className="container flex flex-wrap items-center justify-between mx-auto">
-                    <a href="#" className="flex items-center">
+                    <a href="/" className="flex items-center">
                         <img
                             src="logo.png"
                             className="h-6 mr-3 sm:h-10"
@@ -23,7 +23,7 @@ const Navbar = () => {
                     >
                         <span className="sr-only">Open main menu</span>
                         <svg
-                            class="w-6 h-6"
+                            className="w-6 h-6"
                             aria-hidden="true"
                             fill="currentColor"
                             viewBox="0 0 20 20"
@@ -40,10 +40,10 @@ const Navbar = () => {
                         className="hidden w-full md:block md:w-auto"
                         id="navbar-default"
                     >
-                        <ul class="flex flex-col p-3 mx-6 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white">
+                        <ul className="flex flex-col p-3 mx-6 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white">
                             <li>
                                 <a
-                                    href="#intro"
+                                    href="/#intro"
                                     className="block py-2 pl-3 pr-4 text-white bg-pink-300 rounded md:bg-transparent md:text-pink-400 md:p-0"
                                     aria-current="page"
                                 >
@@ -52,7 +52,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <a
-                                    href="#intro"
+                                    href="/#intro"
                                     className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-pink-300 md:p-0"
                                 >
                                     About
@@ -60,7 +60,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <a
-                                    href="#services"
+                                    href="/#services"
                                     className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-pink-300 md:p-0"
                                 >
                                     Services
@@ -68,7 +68,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <a
-                                    href="#timeline"
+                                    href="/#timeline"
                                     className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-pink-300 md:p-0"
                                 >
                                     Timeline
@@ -76,7 +76,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <a
-                                    href="#contact"
+                                    href="/#contact"
                                     className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-pink-300 md:p-0"
                                 >
                                     Contact
