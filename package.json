@@ -15,7 +15,8 @@
     "ipfs-http-client": "^59.0.0",
     "next": "13.1.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-qr-code": "^2.0.11"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",

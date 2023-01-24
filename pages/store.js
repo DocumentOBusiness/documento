@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import { useState } from "react";
 import { create } from "ipfs-http-client";
 import { Buffer } from "buffer";
+import QRCode from "react-qr-code";
 
 const ID = "2KEO573vl8vvP9AFmZLVImy0mlY";
 const SECRET = "e543c05b7c6ae7d24bc23f751ef44f93";
@@ -45,9 +46,16 @@ export default function store() {
                         <input type="file" onChange={onChange} />
                         {fileUrl && (
                             <div className="py-4">
-                                <img
-                                    src={fileUrl}
-                                    className="py-10 max-h-52 max-w-52"
+                                <QRCode
+                                    size={25}
+                                    style={{
+                                        height: "256px",
+                                        maxWidth: "256px",
+                                        width: "256px",
+                                        margin: "10px"
+                                    }}
+                                    value={fileUrl}
+                                    viewBox={`0 0 256 256`}
                                 />
                                 <div className="flex flex-row px-10">
                                     <a

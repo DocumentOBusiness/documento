@@ -1,9 +1,6 @@
 const Services = () => {
     return (
-        <div className="h-full w-11/12 mx-auto bg-purple-500 rounded-md bg-clip-padding backdrop-filter backdrop-blur-none bg-opacity-20 border border-gray-100">
-            <div className="w-11/12 mx-auto block py-2 pl-3 pr-4 items-center justify-center">
-                Services Provided
-            </div>
+        <div className="h-full w-11/12 my-1 mx-auto bg-purple-500 rounded-md bg-clip-padding backdrop-filter backdrop-blur-none bg-opacity-20 border border-gray-100">
             <ol className="w-11/12 mx-auto my-4">
                 <li className="mb-6 ml-4 text-base font-normal text-gray-800">
                     This app allows users to store, share, and verify their
